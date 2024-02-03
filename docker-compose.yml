@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web:
+    # image: php:8.1-apache
+    build: .
+    container_name: web-demo
+    ports:
+      - 7676:80
+    volumes:
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ./src:/var/www/html
+      - ./httpd/httpd.conf:/etc/apache2/httpd.conf
+    environment:
+      XDEBUG_MODE: 'debug'
+      XDEBUG_CONFIG: 'client_host=host.docker.internal'
