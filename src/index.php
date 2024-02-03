@@ -12,7 +12,8 @@
         <h1 style="margin:0px;">demo git revert</h1>
         <hr>
         <?php
-            echo "Hello World!";
+            $message = "Hello, from demo-git-revert";
+            echo $message;
         ?>
     </div>
 </body>
