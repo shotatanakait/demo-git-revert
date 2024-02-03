@@ -1,3 +1,7 @@
+# Execute a revert commit for a merge commit.
+
+If you don't specify a parent, it will result in a fatal error.
+
 ## Before revert
 
 ```bash
