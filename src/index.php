@@ -10,6 +10,9 @@
 <body>
     <div style="margin:20x;">
         <h1 style="margin:0px;">demo git revert</h1>
+        <?php
+            echo "どうでも良い内容";
+        ?>
         <hr>
         <?php
             date_default_timezone_set('Asia/Tokyo');
