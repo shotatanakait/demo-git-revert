@@ -12,7 +12,11 @@
         <h1 style="margin:0px;">demo git revert</h1>
         <hr>
         <?php
-            echo "Hello World!";
+            date_default_timezone_set('Asia/Tokyo');
+            $date = date('Y/m/d');
+            $time = date('H:i:s');
+            $text = "現在の日付: " . $date . "<br>" . "現在の時刻: " . $time;
+            echo $text;
         ?>
     </div>
 </body>
