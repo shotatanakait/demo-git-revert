@@ -2,6 +2,11 @@
 
 If you don't specify a parent, it will result in a fatal error.
 
+```
+error: commit [target_commit_hash] is a merge but no -m option was given.
+fatal: revert failed
+```
+
 ## Before revert
 
 ```bash
