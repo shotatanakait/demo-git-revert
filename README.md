@@ -19,6 +19,8 @@ git log --graph
 
 ```bash
 git revert -m 1 [target_commit_hash]
+# or
+git revert --mainline 1 [target_commit_hash]
 ```
 
 ## After revert
